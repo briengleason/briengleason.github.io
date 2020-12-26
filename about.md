@@ -12,4 +12,10 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You can reach out to me here: [brien.gleason@gmail.com](mailto:brien.gleason@gmail.com)
+
+### Resume
+<body>
+  <iframe src="/assets/BrienGleasonResume.pdf" width="100%" height="500px">
+  </iframe>
+</body>
