@@ -82,3 +82,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
+plugins:
+  - jekyll-feed
