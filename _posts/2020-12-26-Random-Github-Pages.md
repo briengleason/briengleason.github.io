@@ -24,7 +24,7 @@ endpoint hosted in Elastic Beanstalk.
     function getRandomSite() {
         var xhr = new XMLHttpRequest();
         var method = "GET"
-        var URL = "http://github-api-environment.eba-e4jpskmk.us-east-1.elasticbeanstalk.com/api/random_site"
+        var URL = "https://api.brien.link/api/random_site"
         var async = false
         var user = "admin"
         var password = "admin"
