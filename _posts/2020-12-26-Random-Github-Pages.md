@@ -14,35 +14,10 @@ You can find the code [here](https://github.com/briengleason/random-github-sites
 went pretty quickly, and the majority of the time was spent figuring out a CORS error that I was getting when trying to call the
 endpoint hosted in Elastic Beanstalk.
 
-<button onclick="getRandomSite()">Get Random Site</button>
-
-<div>
-  <p id="answer"></p>
-</div>
-
-<script>
-    function getRandomSite() {
-        var xhr = new XMLHttpRequest();
-        var method = "GET"
-        var URL = "https://api.brien.link/api/random_site"
-        var async = false
-        var user = "admin"
-        var password = "admin"
-        xhr.open(method, URL, async, user, password)
-        xhr.setRequestHeader('Accept','application/json');
-        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-        var res = document.getElementById('answer');
-        res.innerHTML = "Running..."
-        try {
-          xhr.send();
-          if (xhr.status != 200) {
-            res.innerHTML = `Error ${xhr.status}: ${xhr.statusText}`;
-          } else {
-            res.innerHTML = xhr.response.link(xhr.response);
-          }
-        } catch(err) { 
-          res.innerHTML = "Request failed";
-        }
-
-}
-</script>
+<html>
+  <script type="text/javascript" src="/assets/js/getRandomSite.js"></script>
+  <body>
+    <button onclick="getRandomSite()" type="button" id="siteButton">Get Random Site</button>
+    <p id="answer"></p>
+  </body>
+</html>

@@ -110,6 +110,22 @@ img {
   max-width: 100%;
 }
 
+button {
+  background-color: $white;
+  border: 2px solid $black;
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
