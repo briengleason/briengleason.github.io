@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building Data Pipelines for Databricks Delta with DMS
+title: Building Data Pipelines with Databricks & AWS
 ---
 I wanted to share an article my friend Noah Kennedy wrote about work we did building near real-time data pipelines using AWS DMS and Databricks Autoloader.
 
