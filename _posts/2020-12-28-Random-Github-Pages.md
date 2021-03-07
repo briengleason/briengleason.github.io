@@ -14,6 +14,8 @@ You can find the code [here](https://github.com/briengleason/random-github-sites
 went pretty quickly, and the majority of the time was spent figuring out a CORS error that I was getting when trying to call the
 endpoint hosted in Elastic Beanstalk.
 
+**I turned off the Elastic Beanstalk service to save some money on my AWS bill. So the button below will not work.**
+
 <html>
   <script type="text/javascript" src="/assets/js/getRandomSite.js"></script>
   <body>
