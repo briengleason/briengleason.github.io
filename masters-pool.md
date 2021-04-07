@@ -7,6 +7,8 @@ icon: /assets/masters-logo.png
 date: 2021-04-08
 ---
 
+# Scoreboard
+
 <style>
 .responsive-wrap iframe{ max-width: 100%;
     overflow: hidden;
